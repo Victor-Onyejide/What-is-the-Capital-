@@ -1,0 +1,29 @@
+{
+  "data": [
+    {
+      "question": "What is the capital of Bosnia and Herzegovina ?",
+      "choices": ["Mostar", "Sarajevo", "Banja Luka", "Tuzla"],
+      "answer": "Sarajevo"
+    },
+    {
+      "question": "What is the capital of Hungary ?",
+      "choices": ["Zalaegerszeg", "Eger", "Szeged", "Budapest"],
+      "answer": "Budapest"
+    },
+    {
+      "question": "What is the capital of Slovakia ?",
+      "choices": ["Kosice", "Nitra", "Bratislava", "Poprad"],
+      "answer": "Bratislava"
+    },
+    {
+      "question": "What is the capital of Romania ?",
+      "choices": ["Bucharest", "Craiova", "Banja Luka", "Braila"],
+      "answer": "Bucharest"
+    },
+    {
+      "question": "What is the capital of Germany ?",
+      "choices": ["Mostar", "Munich", "Berlin", "Tuzla"],
+      "answer": "Berlin"
+    }
+  ]
+}
