@@ -1,4 +1,4 @@
-# react-qtrbdi
+# What is the Capital
 
 Built this Questionaire for fun using Reactjs
 
