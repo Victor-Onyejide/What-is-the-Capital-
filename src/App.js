@@ -56,7 +56,7 @@ const App = () => {
           results={answers}
           data={quizData.data}
           onReset={resetClickHandler}
-          onAnswersCheck={() => {}}
+          onAnswersCheck={() => setShowModal(true)}
           time={time}
         />
       )}

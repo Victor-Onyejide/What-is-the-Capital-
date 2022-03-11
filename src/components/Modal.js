@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Modal = ({ onClose, results, data }) => {
+  console.log(results);
   return (
     <div className="modal is-active">
       <div className="modal-background" onClick={onClose}></div>
@@ -12,6 +13,7 @@ const Modal = ({ onClose, results, data }) => {
         <section className="modal-card-body content">
           <ul>
             {results.map((result, i) => {
+              console.log('Answer:' + result.a);
               <li key={i} className="mb-6">
                 <p>
                   <strong>{result.q}</strong>
@@ -23,7 +25,6 @@ const Modal = ({ onClose, results, data }) => {
                       : 'has-background-danger has-text-white p-2'
                   }
                 >
-                  {' '}
                   Your answer: {result.a}
                 </p>
                 {result.a !== data[i].answer && (
