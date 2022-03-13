@@ -12,8 +12,7 @@ const Modal = ({ onClose, results, data }) => {
         </header>
         <section className="modal-card-body content">
           <ul>
-            {results.map((result, i) => {
-              console.log('Answer:' + result.a);
+            {results.map((result, i) => (
               <li key={i} className="mb-6">
                 <p>
                   <strong>{result.q}</strong>
@@ -32,8 +31,9 @@ const Modal = ({ onClose, results, data }) => {
                     Correct answer: {data[i].answer}
                   </p>
                 )}
-              </li>;
-            })}
+              </li>
+            ))}
+          
           </ul>
         </section>
       </div>
